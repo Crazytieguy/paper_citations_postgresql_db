@@ -1,5 +1,5 @@
 """
-ASGI config for connected_papers project.
+ASGI config for paper_citations project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'connected_papers.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "paper_citations.settings")
 
 application = get_asgi_application()

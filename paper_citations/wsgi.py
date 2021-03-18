@@ -1,5 +1,5 @@
 """
-WSGI config for connected_papers project.
+WSGI config for paper_citations project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'connected_papers.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "paper_citations.settings")
 
 application = get_wsgi_application()
