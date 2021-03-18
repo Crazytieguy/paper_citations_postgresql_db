@@ -22,5 +22,5 @@ CREATE TABLE "paper_citations_db_minifiedpaper" (
 --
 CREATE INDEX "str_id_to_id_index" ON "paper_citations_db_paper" ("str_id", "id");
 ALTER TABLE "paper_citations_db_minifiedpaper"
-ADD CONSTRAINT "paper_citations_db__paper_id_bed81dd5_fk_connected" FOREIGN KEY ("paper_id") REFERENCES "paper_citations_db_paper" ("id") DEFERRABLE INITIALLY DEFERRED;
+ADD CONSTRAINT "paper_citations_db_m_paper_id_4e7727e6_fk_paper_cit" FOREIGN KEY ("paper_id") REFERENCES "paper_citations_db_paper" ("id") DEFERRABLE INITIALLY DEFERRED;
 COMMIT;
